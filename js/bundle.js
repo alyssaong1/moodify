@@ -174,14 +174,14 @@ exports.Playlist = Playlist;
 var myPlaylist = new Playlist();
 function init() {
     // init playlist
-    myPlaylist.addSong("happy", new Song("Angels", "https://soundcloud.com/vicetone/angels"));
-    myPlaylist.addSong("happy", new Song("Happy", "https://soundcloud.com/kaytranada/happy-kaytranada-edition"));
+    myPlaylist.addSong("happy", new Song("Animals", "https://soundcloud.com/martingarrix/martin-garrix-animals-original"));
+    myPlaylist.addSong("happy", new Song("Good feeling", "https://soundcloud.com/anderia/flo-rida-good-feeling"));
     myPlaylist.addSong("happy", new Song("Megalovania", "https://soundcloud.com/angrysausage/toby-fox-undertale"));
-    myPlaylist.addSong("happy", new Song("It's time", "https://soundcloud.com/imaginedragons/its-time-imagine-dragons"));
-    myPlaylist.addSong("sad", new Song("Curse of the sad mummy", "https://soundcloud.com/leagueoflegends/the-curse-of-the-sad-mummy"));
+    myPlaylist.addSong("happy", new Song("On top of the world", "https://soundcloud.com/interscope/imagine-dragons-on-top-of-the"));
+    myPlaylist.addSong("sad", new Song("How to save a life", "https://soundcloud.com/jelenab-1/the-fray-how-to-save-a-life-7"));
     myPlaylist.addSong("sad", new Song("Divenire", "https://soundcloud.com/djsmil/ludovico-einaudi-divenire"));
     myPlaylist.addSong("sad", new Song("Stay High", "https://soundcloud.com/musaradian/our-last-night-habitsstay-hightove-lo"));
-    myPlaylist.addSong("angry", new Song("In the end", "https://soundcloud.com/user1512165/linkin-park-in-the-end-remix"));
+    myPlaylist.addSong("angry", new Song("When they come for me", "https://soundcloud.com/heoborus/when-they-come-for-me-linkin-park"));
     myPlaylist.addSong("angry", new Song("One Step Closer", "https://soundcloud.com/user1512165/linkin-park-one-step-closer"));
     myPlaylist.addSong("angry", new Song("Somewhere I belong", "https://soundcloud.com/mandylinkinparkmusic2xd/somewhere-i-belong"));
     // init soundcloud
