@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head><title>TypeScript Greeter</title></head>
+    <body>
+        <div class="container" id="page-container">
+            <h1 id="app-name"><span class="glyphicon glyphicon-headphones"></span> moodify</h1>
+            <h2 id="page-header">
+                Get song recommendations based on your mood.
+            </h2>
+            <img id="selected-img" src="">
+            <h4 id="track-name"></h4>
+            <div class="btn-wrapper">
+                <label class="btn btn-info" for="my-file-selector">
+                    <input id="my-file-selector" type="file" style="display:none;">
+                    Upload a picture of you
+                </label>
+                <button type="button" class="btn btn-info" id="refreshbtn">Another song please</button>
+            </div>
+            <div id="musicplayer"></div>
+        </div>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+        <script src="js/bundle.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
