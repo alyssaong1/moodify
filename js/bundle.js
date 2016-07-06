@@ -42,7 +42,7 @@ function changeUI() {
     //Display song refresh button
     refreshbtn.style.display = "inline";
     //Remove offset at the top
-    pagecontainer.style.marginTop = "0px";
+    pagecontainer.style.marginTop = "20px";
 }
 function processImage(callback) {
     var file = imgSelector.files[0];
